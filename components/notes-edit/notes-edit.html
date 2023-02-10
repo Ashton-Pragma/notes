@@ -1,0 +1,37 @@
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    input, textarea {
+        margin-top: 5px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    textarea {
+        height: 200px;
+    }
+    button {
+        max-width: 5rem;
+        cursor: pointer;
+    }
+</style>
+
+<form>
+    <label>
+        Title
+        <input type="text" id="title" name="title">
+    </label>
+    <label>
+        Text
+        <textarea id="text" name="text"></textarea>
+    </label>
+    <button>Save</button>
+</form>
